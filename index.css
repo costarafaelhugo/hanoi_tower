@@ -1,0 +1,67 @@
+body {
+    width: 100vw;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: yellow;
+    width: 90vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 30vh;
+}
+
+#start {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 26vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+#offset {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 26vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+#end {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 26vw;
+    height: 40vh;
+    border: 2px solid black;
+}
+
+#first {
+    height: 5vh;
+    width: 24vw;
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+#second {
+    height: 5vh;
+    width: 20vw;
+    background-color: black;
+}
+
+#third {
+    height: 5vh;
+    width: 16vw;
+    background-color: green;
+}
+
+#fourth {
+    height: 5vh;
+    width: 12vw;
+    background-color: blue;
+}

@@ -1,3 +1,5 @@
+var inicio = "";
+
 // criar torres
 const container = document.getElementById('container')
 
@@ -16,30 +18,57 @@ container.appendChild(torreUm)
 container.appendChild(torreDois)
 container.appendChild(torreTres)
 
+// //criar discos na torre 1
+for (let i = 3; i >= 0; i--) {
+    let disco = document.createElement("div");
+    disco.setAttribute("id", "disco" + i);
+    disco.setAttribute("class", "disco" + i);
+
+    disco.setAttribute("name", i);
+    torreUm.appendChild(disco);
+
+}
 
 
+//movimentar discos
+movimentaDisco = function(event) {
+    let movimenta;
+    let inicial;
+    let destino;
+    let discoTemp;
+    let discoMov;
+    let valorAndado;
+    let valTemp;
 
-//criar discos na torre 1
+    if (inicio == "") {
+        inicio = event.currentTarget.id;
+    } else {
+        movimenta = event.currentTarget.id;
+        inicial = document.getElementById(inicio);
+        destino = document.getElementById(movimenta);
+        if (inicial.childElementCount > 0) {
+            discoMov = inicial.lastElementChild;
+            valorAndado = parseInt(discoMov.getAttribute("name"));
+            if (destino.childElementCount > 0) {
+                discoTemp = destino.lastElementChild;
+                valTemp = parseInt(discoTemp.getAttribute("name"));
+                if (valTemp > valorAndado)
+                    document.getElementById(movimenta).appendChild(discoMov);
+            } else {
 
-const discoUm = document.createElement('div')
-discoUm.setAttribute('id', "first")
+                document.getElementById(movimenta).appendChild(discoMov);
+            }
 
-const discoDois = document.createElement('div')
-discoDois.setAttribute('id', "second")
+        }
 
-const discoTres = document.createElement('div')
-discoTres.setAttribute('id', "third")
-
-const discoQuatro = document.createElement('div')
-discoQuatro.setAttribute('id', "fourth")
+        inicio = "";
+    }
 
 
-
-//"pendurar discos na torre 1"
-torreUm.appendChild(discoUm)
-torreUm.appendChild(discoDois)
-torreUm.appendChild(discoTres)
-torreUm.appendChild(discoQuatro)
+    console.log("inicio:", inicio);
+}
 
 
-// adicionar handlers
+torreUm.addEventListener('click', movimentaDisco);
+torreDois.addEventListener('click', movimentaDisco);
+torreTres.addEventListener('click', movimentaDisco);

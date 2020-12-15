@@ -1,9 +1,9 @@
 body {
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 
-.container {
+#container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -46,7 +46,6 @@ body {
     height: 5vh;
     width: 24vw;
     background-color: wheat;
-    border: 2px solid black;
 }
 
 #second {

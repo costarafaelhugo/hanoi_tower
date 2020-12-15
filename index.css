@@ -1,18 +1,21 @@
 body {
     width: 100vw;
     height: 100vh;
+    background-color: #383428;
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    background-color: yellow;
-    width: 90vw;
+    background-color: #caa472;
+    width: 95%;
     height: 60vh;
     margin: 0 auto;
     margin-top: 30vh;
     margin-left: 1.25vh;
+    box-shadow: 5px 8px 2px white;
+    border-radius: 3px;
 }
 
 #start {
@@ -22,6 +25,9 @@ body {
     width: 26vw;
     height: 40vh;
     border: 2px solid black;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    border-radius: 4px;
 }
 
 #offset {
@@ -31,6 +37,8 @@ body {
     width: 26vw;
     height: 40vh;
     border: 2px solid black;
+    margin-bottom: 2vh;
+    border-radius: 4px;
 }
 
 #end {
@@ -40,28 +48,40 @@ body {
     width: 26vw;
     height: 40vh;
     border: 2px solid black;
+    margin-right: 2vw;
+    margin-bottom: 2vh;
+    border-radius: 4px;
 }
 
 #first {
-    height: 5vh;
-    width: 24vw;
-    background-color: wheat;
+    height: 4vh;
+    width: 25vw;
+    background-color: yellow;
+    border-radius: 20px;
 }
 
 #second {
-    height: 5vh;
-    width: 20vw;
-    background-color: black;
+    height: 4vh;
+    width: 22vw;
+    background-color: red;
+    border-radius: 20px;
 }
 
 #third {
-    height: 5vh;
-    width: 16vw;
+    height: 4vh;
+    width: 18vw;
     background-color: green;
+    border-radius: 20px;
 }
 
 #fourth {
-    height: 5vh;
-    width: 12vw;
+    height: 4vh;
+    width: 15vw;
     background-color: blue;
+    border-radius: 20px;
+}
+
+#title {
+    color: white;
+    font-family: 'Fredoka One', cursive;
 }

@@ -53,28 +53,28 @@ body {
     border-radius: 4px;
 }
 
-#first {
+.disco3 {
     height: 4vh;
     width: 25vw;
     background-color: yellow;
     border-radius: 20px;
 }
 
-#second {
+#disco2 {
     height: 4vh;
     width: 22vw;
     background-color: red;
     border-radius: 20px;
 }
 
-#third {
+#disco1 {
     height: 4vh;
     width: 18vw;
     background-color: green;
     border-radius: 20px;
 }
 
-#fourth {
+#disco0 {
     height: 4vh;
     width: 15vw;
     background-color: blue;

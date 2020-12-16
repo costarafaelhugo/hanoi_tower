@@ -54,13 +54,13 @@ movimentaDisco = function(event) {
                 valTemp = parseInt(discoTemp.getAttribute("name"));
                 if (valTemp > valorAndado)
                     document.getElementById(movimenta).appendChild(discoMov);
+                if (torreTres.childElementCount === 4)
+                    alert('venceu')
             } else {
 
                 document.getElementById(movimenta).appendChild(discoMov);
             }
-
         }
-
         inicio = "";
     }
 

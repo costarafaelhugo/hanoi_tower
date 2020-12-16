@@ -1,8 +1,7 @@
-body {
+    body {
     width: 100vw;
     height: 100vh;
     background-color: #383428;
-<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
 }
 
@@ -34,22 +33,17 @@ p {
     font-family: 'Fredoka One', cursive;
     border-bottom: solid white;
     border-width: 0.25vh;
-=======
->>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-<<<<<<< HEAD
-    background-color: #444444;
+    <<<<<<< HEAD background-color: #444444;
     width: 90%;
-=======
-    background-color: #caa472;
+    =======background-color: #caa472;
     width: 95%;
->>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
-    height: 60vh;
+    >>>>>>>646ce56e50fc35868b97ee7a202d82b79105fe53 height: 60vh;
     margin: 0 auto;
     margin-top: 30vh;
     margin-left: auto;
@@ -119,8 +113,7 @@ p {
     border-radius: 20px;
 }
 
-<<<<<<< HEAD
-::-webkit-scrollbar {
+<<<<<<< HEAD::-webkit-scrollbar {
     width: 0;
 }
 
@@ -221,9 +214,9 @@ body {
     50% {
         background-position: 100% 50%;
     }
-=======
-#title {
-    color: white;
-    font-family: 'Fredoka One', cursive;
->>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
-}
+    
+    =======#title {
+        color: white;
+        font-family: 'Fredoka One', cursive;
+        >>>>>>>646ce56e50fc35868b97ee7a202d82b79105fe53
+    }

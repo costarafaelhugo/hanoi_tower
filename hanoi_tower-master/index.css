@@ -2,6 +2,7 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: #383428;
+<<<<<<< HEAD
     font-family: 'Roboto', sans-serif;
 }
 
@@ -33,14 +34,21 @@ p {
     font-family: 'Fredoka One', cursive;
     border-bottom: solid white;
     border-width: 0.25vh;
+=======
+>>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
 }
 
 #container {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+<<<<<<< HEAD
     background-color: #444444;
     width: 90%;
+=======
+    background-color: #caa472;
+    width: 95%;
+>>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
     height: 60vh;
     margin: 0 auto;
     margin-top: 30vh;
@@ -54,7 +62,7 @@ p {
     align-items: center;
     width: 26vw;
     height: 40vh;
-    border: 2px solid #12120E;
+    border: 2px solid black;
     margin-left: 2vw;
     margin-bottom: 2vh;
     border-radius: 4px;
@@ -66,7 +74,7 @@ p {
     align-items: center;
     width: 26vw;
     height: 40vh;
-    border: 2px solid #12120E;
+    border: 2px solid black;
     margin-bottom: 2vh;
     border-radius: 4px;
 }
@@ -77,7 +85,7 @@ p {
     align-items: center;
     width: 26vw;
     height: 40vh;
-    border: 2px solid #12120E;
+    border: 2px solid black;
     margin-right: 2vw;
     margin-bottom: 2vh;
     border-radius: 4px;
@@ -111,6 +119,7 @@ p {
     border-radius: 20px;
 }
 
+<<<<<<< HEAD
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -212,4 +221,9 @@ body {
     50% {
         background-position: 100% 50%;
     }
+=======
+#title {
+    color: white;
+    font-family: 'Fredoka One', cursive;
+>>>>>>> 646ce56e50fc35868b97ee7a202d82b79105fe53
 }
